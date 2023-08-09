@@ -1,0 +1,260 @@
+ .navbar {
+  background-color: pink  !important;
+  text-align: center;
+  
+ }
+  
+
+ .navbar ul li:hover{
+  background-color: white;
+  cursor: pointer;
+  
+ }
+ .nav-link{
+  color: black !important;
+  
+  
+
+ }
+ .navbar-brand{
+  font-weight: bold;
+  text-align: center;
+  
+
+ }
+ 
+.bi-cart-fill{
+  font-size: 20px;
+}
+.bi-person-fill{
+  font-size: 20px;
+}
+.bi-suit-heart-fill{
+  font-size: 20px;
+}
+
+/* .section1{
+  margin-left:rem;
+  
+} */
+.section h1{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: pink;
+  background-color:  palevioletred ;;
+  
+  
+  
+
+}
+.section > h1{
+  text-shadow: 2px 2px 4px brown;
+}
+
+.section h1:hover{
+  background-color: pink !important;
+}
+h3{
+  color: pink !important;
+}
+
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+  font-size: 50px !important;
+  margin-right: 10px;
+  color:pink;
+}
+
+.card1,.card2,.card3{
+  display: flex;
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  box-shadow: 2px 4px 5px gray ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.maincard{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.products{
+  margin-top: 70px;
+}
+.heading h1:hover{
+  background-color: pink !important;
+}
+.heading{
+  background-color: palevioletred ;
+}
+.card{
+  width: 250px;
+  height: auto !important;
+  margin-bottom: 15px;
+}
+.card-text{
+  font-weight: bold;
+  
+}
+.btn-primary:hover{
+background-color:palevioletred !important ;
+}
+
+
+
+.btn-primary{
+  width: 100%;
+  background-color: pink;
+  
+}
+.heading{
+  text-align: center;
+  font-weight: bold;
+  color: pink;
+  margin: 20PX;
+}
+.heading > h1{
+  text-shadow: 2px 2px 4px brown;
+}
+.headings{
+  text-align: center;
+  font-weight: bold;
+  color: pink;
+  margin: 20px;
+  margin-bottom: 20px;
+  background-color: palevioletred;
+  
+
+}
+.headings h1:hover{
+  background-color: pink;
+}
+.headings > h1{
+  text-shadow: 2px 2px 4px brown;
+  
+}
+.cards,.cards1{
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 2px 4px 5px gray;
+  margin-bottom: 20px;
+  justify-content:center;
+  justify-content: space-around;
+  
+
+  
+
+}
+
+.cards img,.cards1 img{
+  height: 50%;
+  width: 60%;
+  border-radius: 60%;
+  margin-left: 35px;
+  justify-content: center;
+  text-align: center;
+}
+.container-fluid{
+  margin-bottom: 50px;
+}
+
+ 
+  
+ 
+  .containers {
+    width: 100%;
+    background-color:pink;
+    text-align: center;
+   
+  }
+  
+
+   
+   body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.quick-links {
+    flex: 1;
+    text-align: right;
+}
+
+.quick-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.extra-links {
+    flex: 1;
+    text-align: left;
+    
+}
+
+
+.extra-links a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+}
+
+
+.location {
+    flex: 1;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .quick-links, .extra-links, .contact-info, .location {
+        text-align: center;
+    }
+
+    .quick-links, .extra-links, .contact-info, .location {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+@media  screen and (max-width:600px) {
+  .card1,.card2,.card3{
+    width: 100%;
+  }
+}
+
